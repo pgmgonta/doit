@@ -1,0 +1,14 @@
+---
+name: "python_test"
+runner_type: "remote-shell-cmd"
+description: "Python Script Test Action"
+enabled: true
+entry_point: "wrapper.sh"
+parameters:
+  param:
+    type: "string"
+    description: ""
+    required: true
+    position: 0
+    default: "hoge"
+
